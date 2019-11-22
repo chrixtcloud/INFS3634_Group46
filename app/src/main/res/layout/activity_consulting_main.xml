@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:gravity="center"
+            android:text="What is Investment Banking?"
+            android:textColor="#ffffff"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/open_sans" />
+
+        <TextView
+            android:id="@+id/introText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Investment banking is the division of a bank or financial institution that serves governments, corporations, and institutions by providing underwriting (capital raising) and mergers and acquisitions (M and A) advisory services. Investment banks act as intermediaries between investors (who have money to invest) and corporations (who require capital to grow and run their businesses). This guide will cover what investment banking is and what investment bankers actually do."
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            app:fontFamily="@font/open_sans" />
+
+        <view
+            android:id="@+id/youtubeView"
+            class="com.google.android.youtube.player.YouTubePlayerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/playVideoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FC9B0A"
+            android:text="Play Video" />
+
+        <TextView
+            android:id="@+id/mgmtText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="What do Investment Banks do?"
+            android:textColor="#FFAB00"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/open_sans" />
+
+        <TextView
+            android:id="@+id/mgmtInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="There can sometimes be confusion between an investment bank and the investment banking division (IBD) of a bank. Full-service investment banks offer a wide range of services that include underwriting, M and A, sales and trading, equity research, asset management, commercial banking, and retail banking. The investment banking division of a bank provides only the underwriting and M and A advisory services. Full-service banks offer the following services: •	Underwriting  •	Mergers and Acquisitions (M and A) •	Sales and Trading  •	Equity Research  •	Asset Management  "
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            app:fontFamily="@font/open_sans" />
+
+        <TextView
+            android:id="@+id/techText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:text="Underwriting Services"
+            android:textColor="#FFAB00"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/open_sans" />
+
+        <TextView
+            android:id="@+id/techInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Underwriting is the process of raising capital through selling stocks or bonds to investors (e.g., an initial public offering IPO) on behalf of corporations or other entities. Businesses need money to operate and grow their businesses, and the bankers help them get that money by marketing the company to investors.  There are generally three types of underwriting:  Firm Commitment – The underwriter agrees to buy the entire issue and assume full financial responsibility for any unsold shares. Best Efforts – Underwriter commits to selling as much of the issue as possible at the agreed-upon offering price but can return any unsold shares to the issuer without financial responsibility. All-or-None – If the entire issue cannot be sold at the offering price, the deal is called off and the issuing company receives nothing."
+            android:textColor="#ffffff"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/opsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:paddingTop="8dp"
+            android:text="M and A Advisory Services"
+            android:textColor="#FFAB00"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/open_sans" />
+
+        <TextView
+            android:id="@+id/opsInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Mergers and acquisitions (M and A) advisory is the process of helping corporations and institutions find, evaluate, and complete acquisitions of businesses. This is a key function in i-banking. Banks use their extensive networks and relationships to find opportunities and help negotiate on their client’s behalf. Bankers advise on both sides of M and A transactions, representing either the “buy-side” or the “sell-side” of the deal."
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            app:fontFamily="@font/open_sans" />
+
+    </LinearLayout>
+</ScrollView>
